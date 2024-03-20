@@ -1,8 +1,8 @@
-# AppSheet Clout Inspection Demo with Vertex AI
+# AppSheet Gemini Car Parts Demo
 
 ---
 
-This tutorial helps you deploy the AppSheet Cloud Inspection Demo using Google Cloud Vertex AI, Firebase, Cloud Run & AppSheet.
+This tutorial helps you deploy the AppSheet Gemini Car Parts Demo using Google Cloud Vertex AI, Firebase, Cloud Run & AppSheet.
 
 Let's get started!
 

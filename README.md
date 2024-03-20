@@ -1,4 +1,4 @@
-# AppSheet Cloud Inspection Demo
+# AppSheet Gemini Car Parts Demo
 
 This demo shows how a no-code AppSheet app can use a serverless API deployed in Google Cloud to leverage Gen AI and storage features to enhance a visual inspection scenario.
 
@@ -11,8 +11,8 @@ Here is a high level architecture diagram of the solution.
 ## Assets deployed
 
 - Cloud Run containerized service written in Python to host the service and API
-- A Firestore data collection used to persist the inspection data
-- Vertex Gen AI Vision models to ask prompts about inspection photos
+- A Firestore data collection used to read and write data
+- Vertex AI Gemini Pro model to get the name and other metadata of the car part
 
 ## Deploy
 
