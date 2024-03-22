@@ -72,12 +72,6 @@ class datahandler:
             visionData = getImagePrompt(imageData, """please describe this car part in 2-3 technical words and not in a sentence.""")
 
             data["partName"] = visionData.replace(".", "").strip()
-
-            # visionCaptionData = json.loads(getImageCaption(imageData))
-            # if "predictions" in visionCaptionData:
-            #   data["generatedCaption"] = (
-            #     visionCaptionData["predictions"][0].capitalize() + "."
-            #   )
         else:
           data["partName"] = "Not recognized."
 

@@ -53,20 +53,6 @@ def getImagePrompt(image, prompt1):
     for response in responses:
       result = result + response.text
 
-    # response = authed_session.post(
-    #   url="https://us-central1-aiplatform.googleapis.com/v1/projects/{project}/locations/us-central1/publishers/google/models/imagetext:predict".format(
-    #     project=project
-    #   ),
-    #   json={
-    #     "instances": [
-    #         {
-    #             "prompt": prompt1,
-    #             "image": {"bytesBase64Encoded": image},
-    #         }
-    #     ],
-    #     "parameters": {"sampleCount": 1},
-    #   },
-    # )
     b = datetime.datetime.now()
     c = b - a
     logging.error(
